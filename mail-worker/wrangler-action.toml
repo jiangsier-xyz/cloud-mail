@@ -11,7 +11,8 @@ custom_domain = true
 
 [[d1_databases]]
 binding = "db"
-database_name = "cloud-mail"
+# database_name = "cloud-mail"
+database_name = "mail-d1"
 database_id = "${D1_DATABASE_ID}"
 
 [[kv_namespaces]]
